@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Resume</title>
+    <style>
+        /* Reset and Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 18px;
+        }
+
+        body {
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+
+        /* Container Layout */
+        .resume-container {
+            font-size: medium;
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: grid;
+            grid-template-columns: 300px 1fr;
+            min-height: 100vh;
+        }
+
+        /* Left Section Styles */
+        .left-section {
+            background-color: #2c3e50;
+            color: white;
+            padding: 30px;
+        }
+
+        .contact-info {
+            margin-bottom: 30px;
+        }
+
+        .contact-info h3 {
+            font-size: 20px;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+        }
+
+        .contact-info p {
+            margin: 15px 0;
+            font-size: 14px;
+        }
+
+        .contact-info a {
+            color: #dde1e6d7;
+        }
+
+        .Certification h3 {
+            font-size: 20px;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+
+        .Certification li {
+            margin-top: 10px;
+            font-size: 17px;
+            list-style-type: disc;
+        }
+
+        /* Right Section Styles */
+        .right-section {
+            padding: 40px;
+        }
+
+        .section-title {
+            font-size: 24px;
+            color: #2c3e50;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+        }
+
+        .professional-title {
+            font-size: 21px;
+            color: #064f5eb6;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+        }
+
+        /* Education Table Styles */
+        .education-table {
+            width: 100%;
+            border-collapse: separate;
+        }
+
+        .education-table th,
+        .education-table td {
+        
+            padding: 10px;
+            text-align: center;
+            padding-left: 8px;
+        }
+
+        .education-table th {
+            color: #2c3e50;
+            font-weight: bold;
+            text-align: center;
+        }
+
+    
+
+        /* Experience Section Styles */
+        .experience-item {
+            margin-bottom: 20px;
+        }
+
+        .experience-item h4 {
+            font-size: 20px;
+            color: #2c3e50;
+            margin-bottom: 5px;
+            gap: 2px;
+        }
+
+        .experience-item h5 {
+            color: #434645e5;
+        }
+
+        .experience-item h3 {
+            font-size: 22px;
+            color: #2c3e50;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            gap: 2px;
+        }
+
+        .experience-item .date {
+            color: #434645e5;
+            font-size: 20px;
+            margin-bottom: 20px;
+            gap: 10px;
+        }
+
+        .Responsibility {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        /* Skills List Styles */
+        .skills-list {
+            display: grid;
+            grid-template-columns: repeat(1, 2fr);
+            gap: 15px;
+            list-style: none;
+        }
+
+        .skills-list li {
+            background-color: #f8f9fa;
+            padding: 10px 15px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            text-align: center;
+            font-size: 18px;
+            color: #2c3e50;
+            gap: 5px;
+        }
+
+        .skills-list h3 {
+            font-size: 20px;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+
+        /* Media Query for Responsiveness */
+        @media (max-width: 768px) {
+            .resume-container {
+                grid-template-columns: 1fr;
+            }
+
+            .skills-list {
+                grid-template-columns: 1fr;
+            }
+
+            .certification {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="resume-container">
+        <div class="left-section">
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p>📧 keerthanam.1si22ec040@gmail.com</p>
+                <p>📱 8073110131</p>
+                <p>📍 Tumkur </p>
+                <span>🔗</span><a href="https://www.linkedin.com/in/keerthana-m-459a90341">LinkedIn</a>
+                <p>🌐 yourwebsite.com</p>
+            </div>
+            <div class="skills-list">
+                <h3>Skills</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>SQL</li>
+                    <li>C</li>
+                    <li>C++</li>
+                    <li>Web Development</li>
+                </ul>
+            </div>
+            <br>
+            <div class="Certification">
+                <h3>Passion</h3>
+                <ol>
+                    <li>Listening music</li>
+                    <li>Watching films</li>
+                    <li>Travelling</li>
+                </ol>
+            </div>
+            <br>
+            <div class="Certification">
+                <h3>Languages</h3>
+                <ol>
+                    <li>Kannada</li>
+                    <li>English</li>
+                </ol>
+            </div>
+            <br>
+            <div class="Certification">
+                <h3>Soft Skills</h3>
+                <ol>
+                    <li>Good listener</li>
+                    <li>Problem Solving</li>
+                    <li>Fast Learner</li>
+                </ol>
+            </div>
+
+        </div>
+
+        <div class="right-section">
+            <h1 class="section-title">KEERTHANA M</h1>
+            <br>
+            <h2 class="section-title">Career Objective</h2>
+            <div class="experience-item">
+                <p>I would like to pursue my career in more challenging environments, where I can add value to
+                    the organizational practices and growth for my own learning experience.</p>
+            </div>
+
+            <h2 class="section-title">Educational Details</h2>
+            <div class="education">
+                <table class="education-table">
+                    <tr>
+                        <th>Year</th>
+                        <th>College/School</th>
+                        <th>CGPA/Percentage</th>
+                    </tr>
+                    <tr>
+                        <td>2022-2026</td>
+                        <td>B.E-ECE,Siddaganga Institute of Technology</td>
+                        <td>9.1</td>
+                    </tr>
+                    <tr>
+                        <td>2020-2022</td>
+                        <td>PUC-St Anne's PU College</td>
+                        <td>94.66</td>
+                    </tr>
+                    <tr>
+                        <td>2019-2020</td>
+                        <td>SSLC-St Anne's Higher Primary School</td>
+                        <td>93.12</td>
+                    </tr>
+                </table>
+            </div>
+
+            <h2 class="section-title">Certifications</h2>
+            <div class="experience-item">
+                <ol class="Responsibility">
+                    <li>FEEL Employable Training Program completion certificate.</li>
+                    <li>Certification course on DSA in codechef.</li>
+                    <li>Certificate of participation in WIE CODE organized by WIE IEEE SIT Student Branch of SIT.</li>
+                    <li>Certificate of participation in HACK-Z organized by Team IEEE Photonics and Comsoc Joint Chapter.
+                    </li>
+                </ol>
+            </div>
+            <h2 class="section-title">Projects</h2>
+            <div class="experience-item">
+                <ol class="Responsibility">
+                    <li><b>Fire Fighting Robot</b><br> (Enabling the robot to navigate through fire-prone areas, avoiding obstacles
+                    and reaching the source of fire. Integrating sensors like temperature, smoke , infrared to accurately detect fire sources
+                and robot is quipped with suitable fire suppression tools like water sprayers) </li>
+                <li><b>IOT based food supply chain tracting system</b><br>(Monitoring environmental conditions such as temperature, 
+                humidity, and location of food items throughout the supply chain to ensure optimal storage and transportation conditions through website to access real-time data)</li>    
+                <li><b>Voice based Navigation System</b><br>(To enable the robot to navigate efficiently using voice commands 
+                while incorporating obstacle detection)</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
